@@ -1,0 +1,29 @@
+body{
+  padding: 10px;
+  background: rgba(6,39,64,0.9);
+}
+ul{
+  list-style-type: none;
+}
+.layout-wrap{
+  position: relative;
+  background: linear-gradient(to right, rgb(3, 27, 45), rgba(5, 35, 57, 0.2));
+  &:before{
+    content:'';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #00d7ff;
+    left:0;
+    top:0;
+  }
+  &:after{
+    content:'';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #00d7ff;
+    left:0;
+    bottom:0;
+  }
+}
